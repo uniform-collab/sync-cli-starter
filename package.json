@@ -1,0 +1,14 @@
+{
+  "name": "@uniformdev/sync-cli-starter",
+  "version": "20.66.2",
+  "private": true,
+  "scripts": {
+    "pull": "uniform sync pull",
+    "push": "uniform sync push",
+    "pull:dev": "uniform sync pull --config ./uniform.config.dev.ts",
+    "push:dev": "uniform sync push --config ./uniform.config.dev.ts"
+  },
+  "devDependencies": {
+    "@uniformdev/cli": "20.66.2"
+  }
+}
